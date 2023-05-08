@@ -51,7 +51,9 @@
 }
 
 .card .text {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
     color: #000;
     font-size: 200%;
 }
@@ -120,12 +122,21 @@ footer h1{
     padding: 50px;
 }
 
-.content-image-style{
+.container{
     background: #000;
-    margin: 30px;
+    color: #FFF;
 }
 
 .image-style img{
     height: 300px;
     border-radius: 8px;
+}
+.feedback img{
+    max-height: 180px;
+    border-radius: 50%;
+}
+
+.user .text{
+    text-align: justify;
+    width: 300px;
 }
